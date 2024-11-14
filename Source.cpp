@@ -29,6 +29,6 @@ int main() {
 	}
 
 	std::cout << &name_3[0] << " " << name_3 << " " << *name_3 << " " << &name_3 << " "
-		<< &name_3[0]<<" "<<name_3[1] << std::endl;
+		<< &name_3[0]<<" "<<&name_3+1 << std::endl;
 
 }
